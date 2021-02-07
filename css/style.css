@@ -1,0 +1,373 @@
+html{
+  box-sizing: border-box;
+
+  }
+
+.page-body{
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 18px;
+line-height: 24px;
+
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p{
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn{
+  font-family: "Cuprum", Arial, sans-serif;
+    font-style: normal;
+    font-weight:400;
+    font-size: 14px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+background-color: #EE3643;
+color: #FFFFFF;
+}
+/*=======================================================Header=====================================================================*/
+.main-header{
+  background-color: #F1F5F7;
+}
+.main-header-top{
+  background-color: #293449;
+  color: #FFFFFF;
+}
+.main-header-top a{
+  color: #FFFFFF;
+}
+  .checkout {
+    background-color:#63A63E;
+  }
+
+  .header-info{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #EE3643;
+  }
+
+  .header-contacts-tel{
+    font-family: "Cuprum", Arial, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    color: #EE3643;
+    display: inline-block;
+    background-color: #F3F7F9;
+    border: 3px solid #FFFFFF;
+padding: 7px 45px 8px 74px;
+  }
+
+  .header-contacts-address{
+    font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+line-height: 24px;
+color: #32425C;
+  }
+  .authorization-list{
+    width: 281px;
+  }
+  .authorization-list-item{
+    font-family: "Cuprum", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+line-height: 21px;
+text-align: center;
+display: inline-block;
+color: #000000;
+  }
+
+.site-navigation{
+  background-color: #32425C;
+}
+
+.navigation-list-item{
+  color:  #FFFFFF;
+}
+/*=======================================================Promo=====================================================================*/
+.promo-list-item{
+  width: 300px;
+  height: 123px;
+}
+
+.promo-item-title{
+  font-family: "Cuprum", Arial, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+  font-size: 24px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.promo-item-link {
+  width: 135px;
+  height: 38px;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  background-color:rgba(255, 255, 255, 0.3);
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.orange{
+  background-color: #FFBF47;
+}
+
+.blue{
+  background-color:  #3BBCE3;;
+}
+
+.purple{
+  background-color: #DC91D8;
+}
+
+.green{
+  background-color:#8ED78F;
+}
+
+/*=======================================================Slider=====================================================================*/
+
+.slider-item-title{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+
+}
+
+/*=======================================================Favorites=====================================================================*/
+.favorites-top{
+background-color:  #F9F5F0;
+}
+
+.favourites-title{
+  font-family: "Cuprum", Arial, sans-serif;
+font-style: 400;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+
+.favourites-list-item{
+  width: 220px;
+height: 318px;
+  background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+}
+
+.favourites-item-title{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 700;
+font-weight: bold;
+font-size: 18px;
+line-height: 20px;
+color: #000000;
+}
+
+.favourites-price{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 700;
+font-weight: bold;
+font-size: 17px;
+line-height: 18px;
+text-transform: uppercase;
+
+}
+
+.old-price{
+  text-decoration-line: line-through;
+  color: #A9A9A9;
+}
+
+.new-price{
+  background-color: #EE3643;
+  color: #FFFFFF;
+  width: 141px;
+  height: 38px;
+}
+
+/*=======================================================Brands=====================================================================*/
+
+.brands-top{
+  background-color:  #F9F5F0;
+}
+
+.brands-title{
+  font-family: "Cuprum", Arial, sans-serif;
+font-style: 400;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+}
+
+.brands-list-item{
+  width: 220px;
+  height: 145px;
+  background: #FFFFFF;
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+}
+
+/*=======================================================Service=====================================================================*/
+
+.service{
+  background: #F1F5F7;
+}
+
+.service-title{
+  font-family: "Cuprum", Arial, sans-serif;
+font-style: 400;
+font-weight: normal;
+font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.service-info{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 13px;
+line-height: 24px;
+color: #000000;
+}
+
+.service-list-item{
+width: 240px;
+height: 61px;
+font-family: "Cuprum", Arial, sans-serif;
+font-style: 700;
+font-weight: bold;
+font-size: 21px;
+line-height: 30px;
+color: #FFFFFF;
+background-color: #32425C;
+box-shadow: 0px 1px 0px #293449;
+}
+
+.service-item-title{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+color: #32425C;
+}
+
+.service-item-info{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 400;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #000000;
+}
+
+/*=======================================================About us=====================================================================*/
+
+.about-title{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.about-info{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 400;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #000000;
+}
+
+.about-list-item{
+  color: #000000;
+}
+
+
+/*=======================================================Contacts=====================================================================*/
+.contacts-title{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.contacts-info{
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: 400;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #000000;
+}
+
+/*=======================================================Footer=====================================================================*/
+
+.main-footer{
+  background-color: #32425C;
+  color: #FFFFFF;
+}
+
+.footer-list-sitemap{
+  color: #FFD180;
+}
+
+.footer-bottom{
+  background-color: #293449;
+}
+
+.footer-mail a{
+  color: #FFD180;
+}
+
+.footer-copyright a{
+  color: #FFD180;
+}
