@@ -10,18 +10,10 @@ html{
   font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-font-size: 18px;
-line-height: 24px;
+  font-size: 18px;
+  line-height: 24px;
 
 }
-
-ul,
-li{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 
 a {
   text-decoration: none;
@@ -37,94 +29,128 @@ img {
 
 .btn{
   font-family: "Cuprum", Arial, sans-serif;
-    font-style: normal;
-    font-weight:400;
-    font-size: 14px;
-line-height: 18px;
-text-align: center;
-text-transform: uppercase;
-background-color: #EE3643;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight:400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+}
+.btn:hover{
+background-color: #CA2C37 ;
+}
+
+.btn:active{
+background-color:#BA2732; ;
 }
 /*=======================================================Header=====================================================================*/
 .main-header{
-  background-color: #F1F5F7;
+  background-color: var(--bg-light-color);
 }
 .main-header-top{
-  background-color: #293449;
-  color: #FFFFFF;
+  background-color:var(--footer-bottom-color);
+  color: var(--basic-white);
 }
 .main-header-top a{
-  color: #FFFFFF;
+  color: var(--basic-white);
 }
-  .checkout {
-    background-color:#63A63E;
+.checkout {
+  background-color:var(--basic-green);
+  }
+.checkout:hover {
+  background: #5FBB2D;;
   }
 
-  .header-info{
+  .checkout:active {
+    background: var(--basic-green);
+    color: rgba(255, 255, 255, 0.5);
+    }
+
+
+.header-info{
   font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
-  color: #EE3643;
+  color: var(--basic-red);
   }
 
-  .header-contacts-tel{
-    font-family: "Cuprum", Arial, sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 30px;
-    color: #EE3643;
-    display: inline-block;
-    background-color: #F3F7F9;
-    border: 3px solid #FFFFFF;
-padding: 7px 45px 8px 74px;
-  }
+.header-contacts-tel{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--basic-red);
+  display: inline-block;
+  background-color:var(--tel-collor);
+  border: 3px solid var(--basic-white);
+  padding: 7px 45px 8px 74px;
+ }
 
-  .header-contacts-address{
-    font-family: "Cuprum", Arial, sans-serif;
+.header-contacts-address{
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-line-height: 24px;
-color: #32425C;
+  line-height: 24px;
+  color: var(--basic-gray);
   }
-  .authorization-list{
-    width: 281px;
+.authorization-list{
+  width: 281px;
   }
-  .authorization-list-item{
-    font-family: "Cuprum", Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 21px;
-line-height: 21px;
-text-align: center;
-display: inline-block;
-color: #000000;
+.authorization-list-item{
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  display: inline-block;
+  color: var(--basic-black);
+  list-style: none;
+  }
+.authorization-list-item:hover{
+  color: var(--basic-red);
+  }
+
+.authorization-list-item:active{
+  color: #C5C5C5;;
   }
 
 .site-navigation{
-  background-color: #32425C;
+  background-color:var(--basic-gray);
+  box-shadow: inset 0px -5px 0px #293449;
 }
 
 .navigation-list-item{
-  color:  #FFFFFF;
+  color: var(--basic-white);
+  list-style: none;
+}
+.navigation-list-item:hover{
+  background: var(--footer-bottom-color);
+}
+.navigation-list-item:active{
+  background: #1D2739;
+  opacity: 0.5;
 }
 /*=======================================================Promo=====================================================================*/
 .promo-list-item{
   width: 300px;
   height: 123px;
+  list-style: none;
 }
 
 .promo-item-title{
   font-family: "Cuprum", Arial, sans-serif;
-    font-style: bold;
-    font-weight: 700;
+  font-style: bold;
+  font-weight: 700;
   font-size: 24px;
-line-height: 30px;
-color: #FFFFFF;
+  line-height: 30px;
+  color: var(--basic-white);
 }
 
 .promo-item-link {
@@ -138,24 +164,32 @@ color: #FFFFFF;
   background-color:rgba(255, 255, 255, 0.3);
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--basic-white);
 
+}
+
+.promo-item-link:hover{
+  background:rgba(197, 197, 197, 0.3);
+}
+
+.promo-item-link:active{
+  background-color:var(--old-price-collor);
 }
 
 .orange{
-  background-color: #FFBF47;
+  background-color:var(--basic-orange);
 }
 
 .blue{
-  background-color:  #3BBCE3;;
+  background-color: var(--basic-blue);
 }
 
 .purple{
-  background-color: #DC91D8;
+  background-color:var(--basic-purple);
 }
 
 .green{
-  background-color:#8ED78F;
+  background-color:var(--basic-light-green);
 }
 
 /*=======================================================Slider=====================================================================*/
@@ -171,54 +205,55 @@ color: #FFFFFF;
 
 /*=======================================================Favorites=====================================================================*/
 .favorites-top{
-background-color:  #F9F5F0;
+  background-color: var(--basic-light-gray);
 }
 
 .favourites-title{
   font-family: "Cuprum", Arial, sans-serif;
-font-style: 400;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 
 .favourites-list-item{
   width: 220px;
-height: 318px;
-  background: #FFFFFF;
-border: 1px solid #EAEAEA;
-box-sizing: border-box;
+  height: 318px;
+  background: var(--basic-white);
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .favourites-item-title{
   font-family: "PT Sans", Arial, sans-serif;
   font-style: 700;
-font-weight: bold;
-font-size: 18px;
-line-height: 20px;
-color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color:var(--basic-black);
 }
 
 .favourites-price{
   font-family: "PT Sans", Arial, sans-serif;
   font-style: 700;
-font-weight: bold;
-font-size: 17px;
-line-height: 18px;
-text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
 
 }
 
 .old-price{
   text-decoration-line: line-through;
-  color: #A9A9A9;
+  color:var(--old-price-collor);
 }
 
 .new-price{
-  background-color: #EE3643;
-  color: #FFFFFF;
+  background-color:var(--basic-red);
+  color: var(--basic-white);
   width: 141px;
   height: 38px;
 }
@@ -226,40 +261,47 @@ text-transform: uppercase;
 /*=======================================================Brands=====================================================================*/
 
 .brands-top{
-  background-color:  #F9F5F0;
+  background-color: var(--basic-light-gray);
 }
 
 .brands-title{
   font-family: "Cuprum", Arial, sans-serif;
-font-style: 400;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 
 .brands-list-item{
   width: 220px;
   height: 145px;
-  background: #FFFFFF;
-border: 1px solid #EAEAEA;
-box-sizing: border-box;
+  background: var(--basic-white);
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  list-style: none;
 }
-
+.brands-list-item:hover{
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+.brands-list-item:active{
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+  opacity: 0.5;
+}
 /*=======================================================Service=====================================================================*/
 
 .service{
-  background: #F1F5F7;
+  background: var(--bg-light-color);
 }
 
 .service-title{
   font-family: "Cuprum", Arial, sans-serif;
-font-style: 400;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
-color: #000000;
+  font-style: 400;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color:var(--basic-black);
 }
 
 .service-info{
@@ -267,40 +309,46 @@ color: #000000;
   font-style: 400;
   font-weight: normal;
   font-size: 13px;
-line-height: 24px;
-color: #000000;
+  line-height: 24px;
+  color: var(--basic-black);
 }
 
 .service-list-item{
-width: 240px;
-height: 61px;
-font-family: "Cuprum", Arial, sans-serif;
-font-style: 700;
-font-weight: bold;
-font-size: 21px;
-line-height: 30px;
-color: #FFFFFF;
-background-color: #32425C;
-box-shadow: 0px 1px 0px #293449;
+  width: 240px;
+  height: 61px;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--basic-white);
+  list-style: none;
+  background-color: var(--basic-gray);
+  box-shadow: 0px 1px 0px #293449;
 }
+.service-list-item:hover{
+  background-color: #293449;
+  box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+}
+
 
 .service-item-title{
   font-family: "Cuprum", Arial, sans-serif;
   font-style: 400;
   font-weight: normal;
   font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
-color: #32425C;
+  line-height: 30px;
+  text-transform: uppercase;
+  color:var(--basic-gray);
 }
 
 .service-item-info{
   font-family: "PT Sans", Arial, sans-serif;
   font-style: 400;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-black);
 }
 
 /*=======================================================About us=====================================================================*/
@@ -310,22 +358,22 @@ color: #000000;
   font-style: 400;
   font-weight: normal;
   font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
-color: #000000;
+  line-height: 30px;
+  text-transform: uppercase;
+  color:var(--basic-black);
 }
 
 .about-info{
   font-family: "PT Sans", Arial, sans-serif;
   font-style: 400;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color:var(--basic-black);
 }
 
 .about-list-item{
-  color: #000000;
+  color:var(--basic-black);
 }
 
 
@@ -335,39 +383,146 @@ color: #000000;
   font-style: 400;
   font-weight: normal;
   font-size: 30px;
-line-height: 30px;
-text-transform: uppercase;
-color: #000000;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
 }
 
 .contacts-info{
   font-family: "PT Sans", Arial, sans-serif;
   font-style: 400;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: #000000;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color:var(--basic-black);
 }
 
 /*=======================================================Footer=====================================================================*/
 
 .main-footer{
-  background-color: #32425C;
-  color: #FFFFFF;
+  background-color:var(--basic-gray);
+  color:var(--basic-white);
+}
+
+.footer-logo:active{
+  background-color: #BA2732;
 }
 
 .footer-list-sitemap{
+  color: var(--basic-light-orange);
+}
+.footer-list,
+.footer-social-list{
+  list-style: none;
+}
+.footeer-list-item:hover,
+.footer-list-sitemap:hover{
+text-decoration: underline;
+}
+.footeer-list-item:active{
+  color: #F1F5F7;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.footer-list-sitemap:active{
+  text-decoration: none;
+  opacity: 0.5;
   color: #FFD180;
 }
-
 .footer-bottom{
-  background-color: #293449;
+  background-color: var(--footer-bottom-color);
 }
 
 .footer-mail a{
-  color: #FFD180;
+  color:var(--basic-light-orange);
+}
+.footer-mail a:hover{
+  text-decoration: underline;
+}
+.footer-mail a:active{
+  text-decoration: none;
+  color: #EE3643;
 }
 
 .footer-copyright a{
-  color: #FFD180;
+  color:var(--basic-light-orange);
 }
+.footer-copyright a:hover{
+  text-decoration: underline;
+}
+
+.footer-copyright a:active{
+  text-decoration: none;
+  color: #EE3643;
+}
+
+
+:root {
+  --basic-black: #000000;
+  --basic-green:#63A63E;
+  --basic-light-green:#8ED78F;
+  --basic-orange: #FFBF47;
+  --basic-light-orange: #FFD180;
+  --basic-blue: #3BBCE3;
+  --basic-extra-light: #f8f5f2;
+  --basic-white: #ffffff;
+  --basic-red:#EE3643;
+  --basic-purple:#DC91D8;
+  --bg-light-color: #F1F5F7;
+  --footer-bottom-color:#293449;
+  --tel-collor: #F3F7F9;
+  --old-price-collor:#A9A9A9;
+  --basic-gray: #32425C;
+  --basic-light-gray: #F9F5F0;
+}
+
+@font-face{
+  font-family:'Cuprum';
+  src: url('../fonts/cuprum.woff2') format('woff2'),
+       url('../fonts/cuprum.woff') format('woff');
+  font-weight: 400;
+  font-style: bold;
+  }
+
+  @font-face{
+    font-family:'Cuprum';
+    src: url('../fonts/cuprumbold.woff2') format('woff2'),
+         url('../fonts/cuprumbold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+    }
+
+    @font-face{
+      font-family:'Cuprum';
+      src: url('../fonts/cuprumbolditalic.woff2') format('woff2'),
+           url('../fonts/cuprumbolditalic.woff') format('woff');
+      font-weight: 700;
+      font-style: italic;
+      }
+
+      @font-face{
+        font-family:'Cuprum';
+        src: url('../fonts/cuprumitalic.woff2') format('woff2'),
+             url('../fonts/cuprumitalic.woff') format('woff');
+        font-weight: 400;
+        font-style: italic;
+
+        }
+
+        @font-face{
+          font-family:'PT Sans';
+          src: url('../fonts/ptsans.woff2') format('woff2'),
+               url('../fonts/ptsans.woff') format('woff');
+          font-weight: 400;
+          font-style: normal;
+
+          }
+
+          @font-face{
+            font-family:'PT Sans';
+            src: url('../fonts/ptsansbold.woff2') format('woff2'),
+                 url('../fonts/ptsansbold.woff') format('woff');
+            font-weight: 700;
+            font-style: bold;
+
+            }
