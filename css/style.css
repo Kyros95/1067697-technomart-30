@@ -137,6 +137,36 @@ background-color:#BA2732; ;
   background: #1D2739;
   opacity: 0.5;
 }
+
+.breadcrumbs-list-item{
+ list-style: none;
+ font-family: PT Sans;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 13px;
+ line-height: 18px;
+ text-transform: uppercase;
+ color: var(--basic-black);
+}
+.catalog-item-title{
+ font-family: Cuprum;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 30px;
+ text-transform: uppercase;
+ color: #32425C;
+ background-color: #F2F6F8;
+}
+
+.filter{
+ width: 220px;
+ height: 720px;
+}
+
+.sort{
+  background-color: #F7F3EC;
+}
 /*=======================================================Promo=====================================================================*/
 .promo-list-item{
   width: 300px;
@@ -256,6 +286,36 @@ background-color:#BA2732; ;
   color: var(--basic-white);
   width: 141px;
   height: 38px;
+}
+
+.pagination-list{
+  list-style: none;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-black);
+}
+.active{
+  background-color:var(--basic-red);
+}
+.description-block{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-black);
+}
+.description-title{
+  font-family: Cuprum;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 /*=======================================================Brands=====================================================================*/
