@@ -60,7 +60,7 @@ background-color:#BA2732; ;
   background-color:var(--basic-green);
   }
 .checkout:hover {
-  background: #5FBB2D;;
+  background: #5FBB2D;
   }
 
   .checkout:active {
@@ -89,7 +89,7 @@ background-color:#BA2732; ;
   background-color:var(--tel-collor);
   border: 3px solid var(--basic-white);
   padding: 7px 45px 8px 74px;
- }
+  }
 
 .header-contacts-address{
   font-family: "Cuprum", Arial, sans-serif;
@@ -139,24 +139,24 @@ background-color:#BA2732; ;
 }
 
 .breadcrumbs-list-item{
- list-style: none;
- font-family: PT Sans;
- font-style: normal;
- font-weight: 400;
- font-size: 13px;
- line-height: 18px;
- text-transform: uppercase;
- color: var(--basic-black);
+  list-style: none;
+  font-family: "PT Sans", Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-black);
 }
 .catalog-item-title{
- font-family: Cuprum;
- font-style: normal;
- font-weight: 400;
- font-size: 30px;
- line-height: 30px;
- text-transform: uppercase;
- color: #32425C;
- background-color: #F2F6F8;
+  font-family: "Cuprum", Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #32425C;
+  background-color: #F2F6F8;
 }
 
 .filter{
@@ -290,7 +290,7 @@ background-color:#BA2732; ;
 
 .pagination-list{
   list-style: none;
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -301,7 +301,7 @@ background-color:#BA2732; ;
   background-color:var(--basic-red);
 }
 .description-block{
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -309,7 +309,7 @@ background-color:#BA2732; ;
   color: var(--basic-black);
 }
 .description-title{
-  font-family: Cuprum;
+  font-family: "Cuprum", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
