@@ -88,6 +88,7 @@ grid-template-columns:1fr max-content max-content;
 .slider-promo-wrap{
   display: grid;
   grid-template-columns: 1fr min-content;
+  grid-gap: 20px;
 }
 .favorites-top{
   display: grid;
@@ -135,6 +136,10 @@ grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   margin-bottom: 20px;
+}
+.service-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .favourites-list-item{
   margin-bottom: 20px;
@@ -367,7 +372,10 @@ grid-gap: 20px;
   font-weight: bold;
   font-size: 36px;
   line-height: 36px;
+}
 
+.hide{
+  display: none;
 }
 
 /*=======================================================Favorites=====================================================================*/
@@ -512,6 +520,7 @@ grid-gap: 20px;
   font-size: 13px;
   line-height: 24px;
   color: var(--basic-black);
+  margin-bottom: 65px;
 }
 
 .service-list-item{
@@ -550,6 +559,7 @@ grid-gap: 20px;
   font-size: 13px;
   line-height: 24px;
   color: var(--basic-black);
+
 }
 
 /*=======================================================About us=====================================================================*/
