@@ -85,9 +85,10 @@ grid-template-columns:1fr max-content max-content;
   column-gap: 20px;
 }
 
+
 .slider-promo-wrap{
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 .favorites-top{
@@ -311,7 +312,7 @@ grid-gap: 20px;
 }
 /*=======================================================Promo=====================================================================*/
 .promo-list-item{
-  width: 300px;
+  /*width: 300px;*/
   height: 123px;
   list-style: none;
 }
@@ -374,6 +375,9 @@ grid-gap: 20px;
   line-height: 36px;
 }
 
+.slider-content{
+  width: 600px;
+}
 .hide{
   display: none;
 }
@@ -393,7 +397,7 @@ grid-gap: 20px;
 }
 
 .favourites-list-item{
-  width: 220px;
+  /*width: 220px;*/
   height: 318px;
   background: var(--basic-white);
   border: 1px solid #EAEAEA;
@@ -480,7 +484,7 @@ grid-gap: 20px;
 }
 
 .brands-list-item{
-  width: 220px;
+  /*width: 220px;*/
   height: 145px;
   background: var(--basic-white);
   border: 1px solid #EAEAEA;
