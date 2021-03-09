@@ -1573,7 +1573,8 @@ text-decoration: underline;
 .footer-bottom{
   background-color: var(--footer-bottom-color);
 }
-.footer-social-btn{
+.footer-social-btn a{
+  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1583,8 +1584,9 @@ text-decoration: underline;
   color: inherit;
   border-radius: 50%;
 }
-.footer-social-btn:hover,
-.footer-social-btn:active{
+
+.footer-social-btn:hover a,
+.footer-social-btn:active a{
 background-color: var(--basic-red);
 }
 .footer-social-list{
