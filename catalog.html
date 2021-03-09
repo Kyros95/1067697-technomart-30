@@ -54,8 +54,10 @@
 
           <div class="header-user-profile">
             <p class="header-user-name"><a href="#">Равшан Джамшутович</a></p>
-            <p class="header-user-order"> <a href="#">Мои заказы</a></p>
-            <p class="header-user-area"><a href="#">Личный кабинет</a></p>
+            <ul class="user-profile-block">
+              <li class="header-user-order"><a href="#">Мои заказы</a></li>
+              <li class="header-user-area"><a href="#">Личный кабинет</a></li>
+            </ul>
           </div>
         </div>
 
@@ -78,9 +80,11 @@
   <main class="inner-page">
     <div class="container">
       <ul class="breadcrumbs-list">
+        <li class="breadcrumbs-list-item "><a href="index.html"><img src="img/home.svg" width="14" height="12"
+              alt="На главную"></a></li>
         <li class="breadcrumbs-list-item"><a href="catalog.html">Каталог</a></li>
         <li class="breadcrumbs-list-item"><a href="#">Инструмент</a></li>
-        <li class="breadcrumbs-list-item"><a>Перфораторы</a></li>
+        <li class="breadcrumbs-list-item breadcrumbs-current"><a>Перфораторы</a></li>
       </ul>
       <h1 class="catalog-item-title">Перфораторы</h1>
       <!--=======================================================Фильтр=====================================================================-->
@@ -91,33 +95,52 @@
           <form action="https://echo.htmlacademy.ru" method="GET">
             <fieldset>
               <legend>Цена</legend>
-              <input type="range" name="" id="">
-              <input type="number" min="0" max="30000" placeholder="0">
-              - <input type="number" min="0" max="30000" placeholder="30000">
+              <div class="range-filter">
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="toggle toggle-min" tabindex="0"></div>
+                  <div class="toggle toggle-max" tabindex="0"></div>
+                </div>
+                <div class="price-controls">
+                  <label class="min-price">
+                    <input type="number" name="min-price" value="0">
+                  </label>
+                  <label class="max-price">
+                    — <input type="number" name="max-price" value="30000">
+                  </label>
+                </div>
+              </div>
             </fieldset>
 
             <fieldset>
               <legend>Производители:</legend>
               <ul>
-                <li>
-                  <input type="checkbox" name="bosch" id="filter-bosch" checked>
+                <li class="filter-option filter-checkbox">
+                  <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="bosch"
+                    id="filter-bosch" checked>
                   <label for="filter-bosch">Bosch</label>
                 </li>
-                <li>
-                  <input type="checkbox" name="interskol" id="filter-interskol">
+                <li class="filter-option filter-checkbox">
+                  <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="interskol"
+                    id="filter-interskol">
                   <label for="filter-interskol">Интерскол</label>
                 </li>
-                <li>
-                  <input type="checkbox" name="makita" id="filter-makita" checked>
+                <li class="filter-option filter-checkbox">
+                  <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="makita"
+                    id="filter-makita" checked>
                   <label for="filter-makita">Makita</label>
                 </li>
-                <li>
-                  <input type="checkbox" name="dewalt" id="filter-dewalt">
+                <li class="filter-option filter-checkbox">
+                  <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="dewalt"
+                    id="filter-dewalt">
                   <label for="filter-dewalt">Dewalt</label>
                 </li>
-                <li>
-                  <input type="checkbox" name="hitachi" id="filter-hitachi">
-                  <label for="filter-bosch">Hitachi</label>
+                <li class="filter-option filter-checkbox">
+                  <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="hitachi"
+                    id="filter-hitachi">
+                  <label for="filter-hitachi">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
@@ -125,17 +148,19 @@
             <fieldset>
               <legend>Питание</legend>
               <ul>
-                <li>
-                  <input type="radio" name="product-power" value="battery" id="filter-battery" checked>
+                <li class="filter-option filter-radio">
+                  <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-power"
+                    type="radio" name="product-power" value="battery" id="filter-battery" checked>
                   <label for="filter-battery">Аккумуляторные</label>
                 </li>
-                <li>
-                  <input type="radio" name="product-power" value="network" id="filter-network">
+                <li class="filter-option filter-radio">
+                  <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-power"
+                    value="network" id="filter-network">
                   <label for="filter-network">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
-            <button type="submit">Показать</button>
+            <button class="filter-btn" type="submit">Показать</button>
           </form>
         </section>
 
@@ -144,9 +169,15 @@
         <section>
           <div class="sort">
             <p>Сортировка</p>
-            <a href="#">По цене</a>
-            <a href="#">По типу</a>
-            <a href="#">По функционалу </a>
+            <ul class="sort-list">
+              <li class="sort-list-item"><a href="#">По цене</a></li>
+              <li class="sort-list-item"><a href="#">По типу</a></li>
+              <li class="sort-list-item"><a href="#">По функционалу </a></li>
+            </ul>
+            <div class="sort-btn-block">
+              <button class="sort-btn top-btn"></button>
+              <button class="sort-btn bottom-btn"></button>
+            </div>
           </div>
           <h2 class="visually-hidden">Список перфораторов</h2>
           <ul class="favourites-list catalog-grid">
@@ -298,10 +329,10 @@
 
           <!--=======================================================Пагинация=====================================================================-->
           <ul class="pagination-list">
-            <li class="pagination-list-item active"><a>1</a></li>
+            <li class="pagination-list-item pagination-item-current"><a>1</a></li>
             <li class="pagination-list-item"><a href="">2</a></li>
             <li class="pagination-list-item"><a href="">3</a></li>
-            <li class="pagination-list-item"><a href="">Следующая</a></li>
+            <li class="pagination-list-item"><a class="next-page" href="">Следующая</a></li>
           </ul>
         </section>
       </div>
@@ -309,7 +340,8 @@
     <div class="description-block">
       <div class="container">
         <p class="description-title">Пара слов о перфораторах</p>
-        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в
+        <p class="description-text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и
+          долбления отверстий в
           кирпиче,
           бетоне и камн.<br>
           Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
