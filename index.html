@@ -337,6 +337,8 @@
           </ul>
 
           <a class="btn about-btn" href="#">Подробнее о компании</a>
+
+
         </section>
 
         <!--=======================================================Контакты=====================================================================-->
@@ -348,11 +350,11 @@
             заехав в наш офис:
           </p>
 
-          <div href="#">
-            <script type="text/javascript" charset="utf-8" async
-              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad966d56ac97d014bb6b0a5b2358e82cae743e6e66c9089c895d8f661467e7286&amp;width=340&amp;height=167&amp;lang=ru_RU&amp;scroll=true"></script>
-          </div>
-          <p><a class="btn contacts-btn" href="#">Заблудились? Напишите нам </a></p>
+          <div>
+            <a href="#">
+              <img src="img/map.jpg" alt="Карта" width="300" height="158">
+            </a>
+            <p><a class="btn contacts-btn" href="#">Заблудились? Напишите нам </a></p>
         </section>
       </div>
     </div>
@@ -440,7 +442,47 @@
     </div>
   </footer>
 
+  <section class="modal modal-write-us">
+    <div class="modal-container">
+      <h2 class="visually-hidden">Напишите нам</h2>
+      <form class="write-us-form" action="#" method="post">
+        <div class="name-email-wrapper">
+          <p>
+            <label>
+              Ваше имя:<br>
+              <input class="modal-user-name" type="text" name="user-name" placeholder="Имя Фамилия">
+            </label>
+          </p>
+          <p>
+            <label>
+              Ваш e-mail:<br>
+              <input class="modal-user-email" type="email" name="user-email" placeholder="email@example.com">
+            </label>
+          </p>
+        </div>
 
+        <p>
+          <label for="modal-user-textarea">Текст письма:</label><br>
+          <textarea name="user-text" id="modal-user-textarea" cols="60" rows="5" placeholder="В свободной форме">
+        </textarea>
+        </p>
+      </form>
+    </div>
+    <div class="modal-bottom">
+      <div class="modal-container">
+        <button class="modal-btn btn" type="submit">Отправить</button>
+      </div>
+    </div>
+
+    <button class="modal-close" type="button" aria-label="Закрыть"></button>
+
+  </section>
+
+  <section class="modal modal-map">
+    <script type="text/javascript" charset="utf-8" async
+      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad966d56ac97d014bb6b0a5b2358e82cae743e6e66c9089c895d8f661467e7286&amp;width=943&amp;height=449&amp;lang=ru_RU&amp;scroll=true"></script>
+    <button class="modal-close modal-close-map" type="button" aria-label="Закрыть"></button>
+  </section>
 </body>
 
 </html>
