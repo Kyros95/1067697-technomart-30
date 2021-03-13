@@ -20,14 +20,13 @@
         <div class="header-top-inner">
           <div class="header-logo">
             <a>
-              <img src="img/logotechnomart.svg" width="108" height="18" alt="Логотип интернет-магазина Техномарт">
+              <img src="img/logotechnomart.svg" width="107" height="17" alt="Логотип интернет-магазина Техномарт">
             </a>
           </div>
 
 
           <form class="header-form" action="#" method="POST">
-            <input type="search" placeholder="      Поиск">
-            <button type="submit"></button>
+            <input type="search" placeholder="Поиск">
           </form>
 
           <p class="bookmark"><a href="#">Закладки: 0</a></p>
@@ -105,10 +104,10 @@
                 </div>
                 <div class="price-controls">
                   <label class="min-price">
-                    <input type="number" name="min-price" value="0">
+                    <input type="text" name="min-price" value="0">
                   </label>
                   <label class="max-price">
-                    — <input type="number" name="max-price" value="30000">
+                    — <input type="text" name="max-price" value="30000">
                   </label>
                 </div>
               </div>
@@ -116,7 +115,7 @@
 
             <fieldset>
               <legend>Производители:</legend>
-              <ul>
+              <ul class="filter-list-first">
                 <li class="filter-option filter-checkbox">
                   <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="bosch"
                     id="filter-bosch" checked>
@@ -147,7 +146,7 @@
 
             <fieldset>
               <legend>Питание</legend>
-              <ul>
+              <ul class="filter-list-second">
                 <li class="filter-option filter-radio">
                   <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-power"
                     type="radio" name="product-power" value="battery" id="filter-battery" checked>
@@ -425,9 +424,9 @@
             <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </div>
 
-          <div class="footer-copyright">
+          <div class="footer-copyright footer-copyright-bottom">
             Разработано —<br>
-            <a href="https://htmlacademy.ru">HTML Academy</a>
+            <a href="https://htmlacademy.ru"> htmlacademy.ru</a>
           </div>
         </div>
       </div>
