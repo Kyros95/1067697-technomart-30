@@ -1769,9 +1769,7 @@ background-color: var(--basic-red);
   display: block;
   animation: bounce 0.6s;
 }
-.modal-error {
-  animation: shake 0.6s;
-}
+
 
 .modal-map img {
   display: block;
@@ -1941,21 +1939,25 @@ background-color: var(--basic-red);
 
 @keyframes bounce {
   0% {
-    transform: translateY(-2000px);
+    transform: translate(-50%, -2000px);
   }
 
   70% {
-    transform: translateY(30px);
+    transform: translate(-50%,30px);
   }
 
   90% {
-    transform: translateY(-10px);
+    transform: translate(-50%,-10px);
   }
 
   100% {
-    transform: translateY(0);
+    transform: translate(-50%,0);
   }
 }
+
+
+
+
 
 @keyframes shake {
   0%,
