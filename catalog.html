@@ -7,7 +7,7 @@
   <link rel="icon" href="img/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>HTML Academy: Техномарт</title>
 </head>
 
@@ -153,7 +153,7 @@
               <ul class="filter-list-second">
                 <li class="filter-option filter-radio">
                   <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-power"
-                    type="radio" name="product-power" value="battery" id="filter-battery" checked>
+                    value="battery" id="filter-battery" checked>
                   <label for="filter-battery">Аккумуляторные</label>
                 </li>
                 <li class="filter-option filter-radio">
@@ -178,8 +178,8 @@
               <li class="sort-list-item"><a href="#">По функционалу </a></li>
             </ul>
             <div class="sort-btn-block">
-              <button class="sort-btn top-btn"></button>
-              <button class="sort-btn bottom-btn"></button>
+              <a href="#" class="sort-btn top-btn" aria-label="Сортировка по возрастанию"></a>
+              <a href="#" class="sort-btn bottom-btn" aria-label="Сортировка по убыванию"></a>
             </div>
           </div>
           <h2 class="visually-hidden">Список перфораторов</h2>
@@ -443,8 +443,8 @@
     <div class="modal-bottom">
       <div class="modal-container">
         <div class="modal-btn-wrap">
-          <button class="modal-btn btn" type="submit">Отправить</button>
-          <button class="modal-btn modal-btn-back" type="submit">Продолжить покупки</button>
+          <a href="#" class="modal-btn btn">Отправить</a>
+          <a href="#" class="modal-btn modal-btn-back">Продолжить покупки</a>
         </div>
 
       </div>
