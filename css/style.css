@@ -1886,7 +1886,7 @@ margin-right: 3px;
   margin-left: 10px;
 }
 .modal-add-cart{
-  display: block;
+  display: none;
   width: 620px;
   height: 282px;
 }
